@@ -6,6 +6,8 @@
 
 # How to use
 
+[![](https://jitpack.io/v/GodTreeV/AndroidKtExtension.svg)](https://jitpack.io/#GodTreeV/AndroidKtExtension)
+
 To get a Git project into your build:
 
 **Step 1.** Add the JitPack repository to your build file
@@ -30,6 +32,6 @@ Add it in your root build.gradle at the end of repositories:
 
 ```kotlin
 	dependencies {
-	        implementation 'com.github.GodTreeV:AndroidKtExtension:1.0.0'
+	        implementation 'com.github.GodTreeV:AndroidKtExtension:1.0.1'
 	}
 ```
