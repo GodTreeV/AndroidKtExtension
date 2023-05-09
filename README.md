@@ -6,6 +6,17 @@
 
 # How to use
 
+# DataBinding & ViewBinding
+```
+	buildFeatures {
+        	viewBinding = true
+    	}
+	
+    	dataBinding {
+        	enabled = true
+    	}
+```
+
 [![](https://jitpack.io/v/GodTreeV/AndroidKtExtension.svg)](https://jitpack.io/#GodTreeV/AndroidKtExtension)
 
 To get a Git project into your build:
