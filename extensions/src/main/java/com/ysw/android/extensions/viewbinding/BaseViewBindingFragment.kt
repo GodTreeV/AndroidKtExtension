@@ -16,7 +16,8 @@ abstract class BaseViewBindingFragment<T: ViewBinding>: Fragment(), ViewBindingA
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return getViewBinding(inflater).root
+        binding = getViewBinding(inflater)
+        return binding.root
     }
 
     override fun doWithViewBinding(block: (T) -> Unit) {
