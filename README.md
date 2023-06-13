@@ -8,6 +8,12 @@
 
 # DataBinding & ViewBinding
 ```
+	plugins {
+	    ...
+	    id("kotlin-kapt")
+	}
+	....
+	
 	buildFeatures {
         	viewBinding = true
     	}
