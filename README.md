@@ -45,10 +45,32 @@ Add it in your root build.gradle at the end of repositories:
 	}
 ```
 
+**For settings.gradle.kts** Add the dependency
+```kotlin
+	pluginManagement {
+    repositories {
+       ...
+        maven("https://jitpack.io")
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        .....
+        maven("https://jitpack.io")
+    }
+}
+```
+
 **Step 2.** Add the dependency
 
 ```kotlin
 	dependencies {
 	        implementation 'com.github.GodTreeV:AndroidKtExtension:1.0.5'
 	}
+```
+
+**For build.gradle.kts**
+```kotlin
+	implementation("com.github.GodTreeV:AndroidKtExtension:1.0.5")
 ```
